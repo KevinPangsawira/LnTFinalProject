@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-size: 25px;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: space-around;
+}
+
+/* .navbar navbar-expand-lg bg-body-tertiary{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(148,149,148,1) 100%, rgba(0,0,0,1) 100%);
+    margin: 0;
+    padding: 0;
+} */
+
+#navbg
+{
+
+    /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(148,149,148,1) 100%, rgba(0,0,0,1) 100%); */
+ 
+}
+
+.event
+{
+    color: white;
+    
+    margin: 50px;
+}
+#day1{
+    font-size: 15px;
+   /* display: flex; */
+   gap: 10px;
+   
+}
+
+#day2{
+    font-size: 15px;
+   /* display: flex; */
+   gap: 10px;
+   
+}
+#day3{
+    font-size: 15px;
+   /* display: flex; */
+   gap: 10px;
+   
+}
+
+
+#timeline{
+    display: flex;
+    gap: 0px ;
+    flex-direction: column;
+    
+}
+
+#day3{
+    font-size: 15px;
+   /* display: flex; */
+   gap: 10px;
+   
+}
+
+#email1
+{
+    display: flex;
+   
+}
+
+#email-form{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    border: solid 8px black;
+    background-color: white;
+}
+
+
+/* #btn
+{
+    border-radius: 10%;
+    color: black;
+    background-color:antiquewhite;
+} */
+
+#email
+{
+    width: 80 px;
+    height: 30px;
+}
+
+#selectedEvent{
+    width: 300px;
+    border: solid 1px black;
+}
+
+#nama
+{
+    width: 80 px;
+    height: 30px;
+}
+
+#hp
+{
+    width: 80 px;
+    height: 30px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(148,149,148,1) 100%, rgba(0,0,0,1) 100%);
+}
+.brief{
+    color: rgb(174, 174, 174);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+    font-size: 17px;
+}
